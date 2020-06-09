@@ -1,0 +1,1 @@
+nuke.menu('Nuke').addCommand('Juhee/file path', 'print nuke.pluginPath()')
