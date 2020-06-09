@@ -1,0 +1,13 @@
+#https://learn.foundry.com/nuke/content/comp_environment/organizing_scripts/using_performance_timingscript_profiling.html
+
+#nuke.startPerformanceTimers()
+#When You want to reset
+#nuke.resetPerformanceTimers()
+#nuke.stopPerformanceTimers()
+
+
+###############################################
+
+
+nuke.menu('Nuke').addCommand('JUHEE/start_green', 'nuke.startPerformanceTimers()')
+nuke.menu('Nuke').addCommand('JUHEE/stop_green', 'nuke.stopPerformanceTimers()')
