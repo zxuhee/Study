@@ -1,0 +1,6 @@
+#menu.py 를 열어 붙여넣습니다.
+
+nuke.knobDefault("Root.first_frame", "1001") 
+nuke.knobDefault("Root.fps", "23.976") 
+
+#프로젝트 세팅에 Root탭>first frame을 1001로 지정한다. fps를 23.976으로 지정한다
